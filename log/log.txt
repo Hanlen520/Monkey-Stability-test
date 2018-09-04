@@ -1,0 +1,243 @@
+:Monkey: seed=8888 count=100
+:AllowPackage: com.carsland.asd
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.android.contacts.activities.PeopleActivity (from package com.android.contacts)
+//   - NOT USING main activity com.android.contacts.activities.DialtactsActivity (from package com.android.contacts)
+//   - NOT USING main activity com.android.mms.ui.ConversationList (from package com.android.contacts)
+//   - NOT USING main activity com.android.email.activity.Welcome (from package com.android.email)
+//   - NOT USING main activity com.huawei.gallery.app.GalleryMain (from package com.android.gallery3d)
+//   - NOT USING main activity com.huawei.camera (from package com.huawei.camera)
+//   - NOT USING main activity com.huawei.hidisk.filemanager.FileManager (from package com.huawei.hidisk)
+//   - NOT USING main activity com.android.mediacenter.PageActivity (from package com.android.mediacenter)
+//   - NOT USING main activity com.example.android.notepad.NotePadActivity (from package com.example.android.notepad)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity com.android.calculator2.Calculator (from package com.android.calculator2)
+//   - NOT USING main activity com.android.calendar.AllInOneActivity (from package com.android.calendar)
+//   - NOT USING main activity com.android.deskclock.AlarmsMainActivity (from package com.android.deskclock)
+//   - NOT USING main activity com.huawei.android.remotecontrol.ui.PFMainActivity (from package com.huawei.android.remotecontrol)
+//   - NOT USING main activity com.mediatek.op01.plugin.Op01WifisettingsActivity (from package com.mediatek.op01.plugin)
+//   - NOT USING main activity com.tencent.pangu.link.SplashActivity (from package com.tencent.android.qqdownloader)
+//   - NOT USING main activity com.baidu.baidumaps.WelcomeScreen (from package com.baidu.BaiduMap)
+//   - NOT USING main activity com.sohu.inputmethod.sogou.SogouIMELauncher (from package com.sohu.inputmethod.sogou)
+//   - NOT USING main activity com.huawei.android.FMRadio.FmRadioActivity (from package com.huawei.android.FMRadio)
+//   - NOT USING main activity com.huawei.KoBackup.InitializeActivity (from package com.huawei.KoBackup)
+//   - NOT USING main activity com.huawei.phoneservice.ui.HelpCenterActivity (from package com.huawei.phoneservice)
+//   - NOT USING main activity com.android.soundrecorder.SoundRecorder (from package com.android.soundrecorder)
+//   - NOT USING main activity com.huawei.hwvplayer.framework.MainActivity (from package com.huawei.hwvplayer)
+//   - NOT USING main activity com.android.keyguard.keyguardplus.OneKeyLockActivity (from package com.android.keyguard)
+//   - NOT USING main activity com.android.stk.StkMain1 (from package com.android.stk)
+//   - NOT USING main activity com.android.stk.StkMain2 (from package com.android.stk)
+//   - NOT USING main activity com.android.systemui.flashlight.FlashlightActivity (from package com.android.systemui)
+//   - NOT USING main activity com.UCMobile.main.UCMobile (from package com.android.browser)
+//   - NOT USING main activity com.android.providers.downloads.ui.DownloadList (from package com.android.providers.downloads.ui)
+//   - NOT USING main activity com.huawei.android.hwouc.ui.activities.MainEntranceActivity (from package com.huawei.android.hwouc)
+//   - NOT USING main activity com.huawei.systemmanager.mainscreen.MainScreenActivity (from package com.huawei.systemmanager)
+//   - NOT USING main activity com.huawei.android.thememanager.HwThemeManagerActivity (from package com.huawei.android.thememanager)
+//   - NOT USING main activity com.huawei.android.totemweather.WeatherHome (from package com.huawei.android.totemweather)
+//   - NOT USING main activity com.app.jdxsxp.activity.SplashActivity (from package com.app.jdxsxp)
+//   - NOT USING main activity com.carsland.cld.activity.SplashActivity (from package com.carsland.cld)
+//   - NOT USING main activity com.tencent.mm.ui.LauncherUI (from package com.tencent.mm)
+//   - NOT USING main activity zz.itcast.cn.wxrecorder.MainActivity (from package zz.itcast.cn.wxrecorder)
+//   - NOT USING main activity com.tencent.mobileqq.activity.SplashActivity (from package com.tencent.mobileqq)
+//   - NOT USING main activity com.netease.qa.emmagee.activity.MainPageActivity (from package com.netease.qa.emmagee)
+//   - NOT USING main activity com.tencent.mobileqq.activity.SplashActivity (from package com.tencent.tim)
+//   - NOT USING main activity com.zkzh.bluetooth_service.MainActivity (from package com.zkzh.bluetooth_service)
+//   - NOT USING main activity com.zkzh.bluetooth_client.MainActivity (from package com.zkzh.bluetooth_client)
+//   - NOT USING main activity cn.wps.moffice.documentmanager.PreStartActivity (from package cn.wps.moffice_eng)
+//   - NOT USING main activity com.eg.android.AlipayGphone.AlipayLogin (from package com.eg.android.AlipayGphone)
+//   - NOT USING main activity com.zk.android.main.ScannerMain (from package com.zk.android.scanner)
+//   - NOT USING main activity com.tencent.mtt.SplashActivity (from package com.tencent.mtt)
+//   - NOT USING main activity com.example.a17589.myapplication333.MainActivity (from package com.example.a17589.myapplication333)
+//   + Using main activity com.carsland.cld.activity.SplashActivity (from package com.carsland.asd)
+//   - NOT USING main activity popup.popfisher.com.smartpopupwindow.PopupWindowMainActivity (from package popup.popfisher.com.smartpopupwindow)
+//   - NOT USING main activity com.example.a17589.myframlayout.MainActivity (from package com.example.a17589.myframlayout)
+//   - NOT USING main activity com.estrongs.android.pop.app.openscreenad.NewSplashActivity (from package com.estrongs.android.pop)
+//   - NOT USING main activity com.pp.assistant.activity.PPMainActivity (from package com.wandoujia.phoenix2)
+//   - NOT USING main activity com.just_soft.apk_sign.activity.WelcomeActivity (from package com.just_soft.apk_sign)
+//   - NOT USING main activity com.willme.topactivity.MainActivity (from package com.willme.topactivity)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+//   - NOT USING main activity com.huawei.android.launcher.Launcher (from package com.huawei.android.launcher)
+// Seeded: 8888
+// Event percentages:
+//   0: 40.0%
+//   1: 25.0%
+//   2: 0.625%
+//   3: 4.6875%
+//   4: -0.0%
+//   5: 10.0%
+//   6: 4.6875%
+//   7: 0.625%
+//   8: 10.0%
+//   9: 0.3125%
+//   10: 4.0625%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.carsland.asd/com.carsland.cld.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.carsland.asd/com.carsland.cld.activity.SplashActivity } in package com.carsland.asd
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(461.0,306.0)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(459.19528,297.79037)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(444.80267,292.5146)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(430.9512,280.07565)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(417.5906,276.26093)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(406.0576,260.48462)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(395.49182,258.382)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(384.41528,250.95181)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(159.0,938.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(147.92117,940.8436)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.carsland.asd/com.carsland.cld.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.carsland.asd/com.carsland.cld.activity.SplashActivity } in package com.carsland.asd
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 7    // KEYCODE_0
+:Sending Key (ACTION_UP): 7    // KEYCODE_0
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(705.0,121.0)
+:Sending Touch (ACTION_MOVE): 0:(714.1541,120.26631)
+:Sending Touch (ACTION_MOVE): 0:(720.0,105.31006)
+:Sending Touch (ACTION_MOVE): 0:(720.0,94.07742)
+:Sending Touch (ACTION_MOVE): 0:(720.0,89.4245)
+:Sending Touch (ACTION_MOVE): 0:(720.0,76.05076)
+:Sending Touch (ACTION_MOVE): 0:(720.0,56.87188)
+:Sending Touch (ACTION_UP): 0:(720.0,44.95732)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(636.0,961.0)
+:Sending Touch (ACTION_UP): 0:(644.06573,945.52924)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(34.0,165.0)
+:Sending Touch (ACTION_MOVE): 0:(32.494297,159.5029)
+:Sending Touch (ACTION_MOVE): 0:(31.271708,158.46945)
+:Sending Touch (ACTION_MOVE): 0:(28.288273,154.53845)
+:Sending Touch (ACTION_MOVE): 0:(25.402405,149.32584)
+:Sending Touch (ACTION_MOVE): 0:(22.592567,144.29709)
+:Sending Touch (ACTION_UP): 0:(19.338587,138.25626)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(153.0,548.0)
+:Sending Touch (ACTION_UP): 0:(156.21579,560.96466)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=com.carsland.asd/com.carsland.cld.activity.AdvertisingActivity } in package com.carsland.asd
+    // activityResuming(com.carsland.asd)
+:Sending Touch (ACTION_DOWN): 0:(693.0,94.0)
+:Sending Touch (ACTION_MOVE): 0:(697.3134,91.03131)
+:Sending Touch (ACTION_MOVE): 0:(707.7123,89.00908)
+:Sending Touch (ACTION_MOVE): 0:(716.3276,87.17172)
+:Sending Touch (ACTION_MOVE): 0:(720.0,84.56352)
+:Sending Touch (ACTION_MOVE): 0:(720.0,84.22126)
+:Sending Touch (ACTION_MOVE): 0:(720.0,83.94756)
+:Sending Touch (ACTION_MOVE): 0:(720.0,80.922775)
+:Sending Touch (ACTION_UP): 0:(720.0,78.05435)
+Sleeping for 300 milliseconds
+    // activityResuming(com.android.settings)
+    // Rejecting resume of package com.android.settings
+    // Allowing start of Intent { cmp=com.carsland.asd/com.carsland.cld.activity.MainActivity } in package com.carsland.asd
+    // Allowing start of Intent { cmp=com.carsland.asd/com.carsland.cld.activity.WebActivity } in package com.carsland.asd
+:Sending Touch (ACTION_DOWN): 0:(117.0,1109.0)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(117.61225,1110.3966)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(119.06564,1111.2594)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(126.288155,1113.0598)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(130.19756,1113.4137)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(134.29007,1114.8696)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(142.08148,1117.4528)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(150.26994,1119.7284)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(153.15741,1121.5612)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(158.50586,1123.3606)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(454.0,1134.0)
+:Sending Touch (ACTION_MOVE): 0:(448.66046,1130.6656)
+:Sending Touch (ACTION_UP): 0:(444.535,1119.1521)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(390.0,870.0)
+:Sending Touch (ACTION_UP): 0:(392.63727,870.7466)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(83.0,718.0)
+:Sending Touch (ACTION_UP): 0:(70.372795,718.1002)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.carsland.asd/com.carsland.cld.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.carsland.asd/com.carsland.cld.activity.SplashActivity } in package com.carsland.asd
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(6.0,140.0)
+:Sending Touch (ACTION_MOVE): 0:(0.0,130.41013)
+:Sending Touch (ACTION_MOVE): 0:(0.0,124.95249)
+:Sending Touch (ACTION_MOVE): 0:(0.0,110.15779)
+:Sending Touch (ACTION_MOVE): 0:(0.0,93.435234)
+:Sending Touch (ACTION_MOVE): 0:(0.0,76.35625)
+:Sending Touch (ACTION_MOVE): 0:(0.0,64.17694)
+:Sending Touch (ACTION_MOVE): 0:(0.0,53.996254)
+:Sending Touch (ACTION_UP): 0:(0.0,37.486774)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(331.0,1054.0)
+:Sending Touch (ACTION_MOVE): 0:(322.1036,1056.3549)
+:Sending Touch (ACTION_MOVE): 0:(299.98868,1063.6256)
+:Sending Touch (ACTION_MOVE): 0:(289.9035,1065.4331)
+:Sending Touch (ACTION_UP): 0:(287.22687,1069.5104)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(54.0,91.0)
+:Sending Touch (ACTION_MOVE): 0:(36.622963,82.89346)
+:Sending Touch (ACTION_UP): 0:(28.46856,75.46677)
+Sleeping for 300 milliseconds
+    // activityResuming(com.carsland.asd)
+:Sending Touch (ACTION_DOWN): 0:(590.0,344.0)
+:Sending Touch (ACTION_UP): 0:(606.42737,334.10974)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.carsland.asd/com.carsland.cld.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.carsland.asd/com.carsland.cld.activity.SplashActivity } in package com.carsland.asd
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.carsland.asd/com.carsland.cld.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.carsland.asd/com.carsland.cld.activity.SplashActivity } in package com.carsland.asd
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(95.0,58.0)
+:Sending Touch (ACTION_UP): 0:(91.878845,53.045376)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(450.0,608.0)
+:Sending Touch (ACTION_UP): 0:(436.00107,625.59717)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(432.0,746.0)
+Events injected: 100
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=20 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=10497ms (0ms mobile, 0ms wifi, 10497ms not connected)
+// Monkey finished

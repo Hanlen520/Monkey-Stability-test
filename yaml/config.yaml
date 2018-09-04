@@ -1,0 +1,21 @@
+platformName: Android,
+deviceName: 30d4e606,
+platformVersion: 5.0,
+appPackage: com.carsland.asd,
+appActivity: com.carsland.cld.activity.SplashActivity
+
+#1. 通过adb devices命令获取所有online设备的serial number。
+
+C:\Users\zhaopeng>adb devices
+List of devices attached
+b7b86f9 device
+localhost:4444  device
+
+
+
+
+2. 通过adb -s <serial number> cmd向设备发送adb命令。
+
+比如：运行命令shell。
+
+C:\Users\zhaopeng>adb -s b7b86f9 shell
