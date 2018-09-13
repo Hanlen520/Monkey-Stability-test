@@ -27,7 +27,7 @@ def monkey():
         #make sure the device is not null
         print("Pls check the device connect!")
     elif n==1:
-        event = int(input("Please enter the event of times you need to perform:"))
+
         #-v level0 /-v -v leve1 /-v -v -v level2
         #full screen dynamic hidden status bar and virtual buttons
         os.system('adb -s %s shell settings put global policy_control immersive.full=*' %devicename)
@@ -40,7 +40,6 @@ def monkey():
         os.system('adb -s %s shell am force-stop com.carsland.asd' %devicename)
     else:
         # print("Current connect device more than 1")
-        event = int(input("Please enter the event of times you need to perform:"))
         print(rt,rt[1][:16])
         for i in range(n):
             #get devicename
@@ -58,6 +57,7 @@ def monkey():
             os.system('adb -s %s shell am force-stop com.carsland.asd' %dev)
 
 counts=int(input("Please enter the number of times you need to perform:"))
+event = int(input("Please enter the event of times you need to perform:"))
 #run monkeytest
 for y in range(counts):
     print("Running for %d times"%(y+1))
